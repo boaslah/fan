@@ -1,0 +1,61 @@
+.circle {
+    width: 500px;
+    height:500px;
+    border-radius: 100%;
+    margin-left: 400px;
+    margin-top: 50px;
+    border-style: dotted;
+    border-color: gray;
+    animation: fan-rotation 0.5s infinite steps(100);
+} 
+
+.middle-box {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 220px;
+    margin-top: 220px;
+    background: gray;
+}
+
+.first-blade {
+    height: 60px;
+    width:200px;
+    margin-top:-60px;
+    margin-left:30px;
+    background:black;
+    border-radius: 100%;
+}
+
+.second-blade {
+    height:60px;
+    width:200px;
+    background:black;
+    margin-left: 270px;
+    margin-top:-60px;
+    border-radius: 100%;
+}
+
+.third-blade {
+    height:200px;
+    width:60px;
+    background:black;
+    margin-left:220px;
+    border-radius: 100%;
+}
+
+.forth-blade {
+    height:200px;
+    width:60px;
+    background:black;
+    margin-left:220px;
+    margin-top:-460;
+    border-radius: 100%;
+}
+
+@keyframes fan-rotation {
+    0%{transform: rotate(0deg); position: fixed;}
+    100%{transform: rotate(360deg); position:fixed;}
+}
+
