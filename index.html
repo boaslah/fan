@@ -4,12 +4,20 @@
         <link rel="stylesheet" href="fan.css">
     </head>
     <body>
-        <div class="circle">
-            <div class="middle-box"></div>
-            <div class="first-blade"></div>
-            <div class="second-blade"></div>
-            <div class="third-blade"></div>
-            <div class= "forth-blade" ></div>
+        <div class="buttons">
+            <button onclick="startRotation()">Start</button>
+            <button onclick="stopRotation()">Stop</button>
+            <button onclick="increaseRotation()">Increase</button>
+            <button onclick="decreaseRotation()">Decrease</button>
+        </div>
+        
+        <div id="circle">
+            <div id="middle-box"></div>
+            <div id="first-blade"></div>
+            <div id="second-blade"></div>
+            <div id="third-blade"></div>
+            <div id= "forth-blade" ></div>
         </div>
     </body>
+    <script src="fan.js"></script>
 </html>

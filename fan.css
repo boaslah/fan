@@ -1,4 +1,4 @@
-.circle {
+#circle {
     width: 500px;
     height:500px;
     border-radius: 100%;
@@ -7,9 +7,19 @@
     border-style: dotted;
     border-color: gray;
     animation: fan-rotation 0.5s infinite steps(100);
-} 
+}
+ 
+.buttons {
+    margin-left: 440px;
+    margin-top:20px;
+}
 
-.middle-box {
+button {
+    width: 100px;
+    height: 30px;
+}
+
+#middle-box {
     position: relative;
     width: 60px;
     height: 60px;
@@ -19,7 +29,7 @@
     background: gray;
 }
 
-.first-blade {
+#first-blade {
     height: 60px;
     width:200px;
     margin-top:-60px;
@@ -28,7 +38,7 @@
     border-radius: 100%;
 }
 
-.second-blade {
+#second-blade {
     height:60px;
     width:200px;
     background:black;
@@ -37,7 +47,7 @@
     border-radius: 100%;
 }
 
-.third-blade {
+#third-blade {
     height:200px;
     width:60px;
     background:black;
@@ -45,7 +55,7 @@
     border-radius: 100%;
 }
 
-.forth-blade {
+#forth-blade {
     height:200px;
     width:60px;
     background:black;
